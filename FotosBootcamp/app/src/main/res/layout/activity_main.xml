@@ -13,8 +13,8 @@
         android:scaleType="centerCrop"
         android:src="@drawable/image"
         android:contentDescription="@string/selected_image"
-        android:layout_width="400dp"
-        android:layout_height="400dp"
+        android:layout_width="370dp"
+        android:layout_height="370dp"
 
         />
 
@@ -26,6 +26,18 @@
         style="@style/Widget.AppCompat.Button.Colored"
         android:padding="10dp"
         android:layout_margin="16dp"
+
+        />
+
+    <Button
+        android:id="@+id/open_camera_button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:padding="10dp"
+        android:text="@string/open_camera"
 
         />
 
