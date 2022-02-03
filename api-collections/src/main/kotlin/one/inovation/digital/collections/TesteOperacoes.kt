@@ -24,5 +24,5 @@ fun main(){
     println(salarios.find{it == 100.30}) // encontra valor igual ao da expressão
 
     println("---------------------")
-    println(salarios.any{it == 100.00}) // retorna true or false dependendo da condição 
+    println(salarios.any{it == 100.00}) // retorna true or false dependendo da condição
 }
