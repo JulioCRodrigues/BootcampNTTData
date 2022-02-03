@@ -11,7 +11,10 @@ fun main(){
     funcionarios.forEach{println(it)}
 
     println("----------------")
-    println(funcionarios.find{it.nome == "Bebeta"})
+    println(funcionarios.find{it.nome == "Bebeta"})  // encontra funcionario Bebeta
+
+    println("----------------")
+    funcionarios.sortedBy { it.salario}.forEach { println(it) } // retorna funcionarios por salario ordenado do menor > maior
 
 }
 
