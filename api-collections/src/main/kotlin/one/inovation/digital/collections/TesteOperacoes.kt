@@ -17,4 +17,12 @@ fun main(){
     println("---------------------")
     salariosFilterMaiorQue100.forEach{ println(it)}
 
+    println("---------------------")
+    println(salarios.count{it in 100.31..300.51})   // retorna valores de acordo com determinado range
+
+    println("---------------------")
+    println(salarios.find{it == 100.30}) // encontra valor igual ao da expressão
+
+    println("---------------------")
+    println(salarios.any{it == 100.00}) // retorna true or false dependendo da condição 
 }
