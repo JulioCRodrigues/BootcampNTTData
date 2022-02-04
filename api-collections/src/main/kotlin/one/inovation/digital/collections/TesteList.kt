@@ -27,9 +27,9 @@ data class Funcionario(
 {
     override fun toString(): String =
 
-        """"
+        """
             Nome: $nome
             Salario: $salario
-            """".trimIndent()
+            """.trimIndent()
     }
 
