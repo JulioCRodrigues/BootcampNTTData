@@ -12,4 +12,12 @@ fun main() {
     repositorio.create(f3.nome, f3 )
 
     println(repositorio.findById(f1.nome))
+
+    println("========== / ==========") // imprime todos os funcionarios
+    repositorio.findAll().forEach{ println(it) }
+
+    println("========== / ==========") // remove funcionario
+    repositorio.remove(f2.nome)
+    repositorio.findAll().forEach{ println(it) }
+
 }
