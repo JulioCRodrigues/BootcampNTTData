@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calculadora IMC</string>
+    <string name="testando_o_check">Testando o check</string>
+    <string name="testando_o_radio">Testando o radio</string>
+    <string name="ol_julinha">Olá Julinha!!</string>
+    <string name="texto_selecionado_aqui">Texto selecionado aqui</string>
+</resources>
